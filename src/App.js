@@ -4,6 +4,7 @@ import './App.css';
 
 class App extends Component {
   render() {
+    console.log(process.env.PUBLIC_URL);
     return (
       <div className="App">
         <header className="App-header">
