@@ -8,6 +8,7 @@ class Homepage extends Component {
   render() {
     return (
       <div>
+        <img src='./yunyun_icon.png' />
         <Navigation />
         <header>
           <h1>Welcome to Yunyun Website</h1>

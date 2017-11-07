@@ -5,3 +5,8 @@ body {
   background-color: #72CC83; /*light green, based on Goolge green */
   color: white;
 }
+
+img {
+	height:100px;
+	width: 100px;
+}
