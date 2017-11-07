@@ -1,5 +1,5 @@
 {
-  "name": "myWebsite_React",
+  "name": "myreactwebsite",
   "homepage": "https://claudiayunyun.github.io/myWebsite_React",
   "version": "0.1.0",
   "private": true,
@@ -19,5 +19,16 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0"
+  },
+  "description": "This is my personal website written by ReactJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiayunyun/myWebsite_React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiayunyun/myWebsite_React/issues"
   }
 }
