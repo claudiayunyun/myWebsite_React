@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { Navigation } from './Navigation'
+import { Nav, NavItem } from 'react-bootstrap';
 
 
 class Homepage extends Component {
+
   render() {
     return (
       <div>
+        <Navigation />
         <header>
           <h1>Welcome to Yunyun Website</h1>
         </header>
@@ -16,4 +20,4 @@ class Homepage extends Component {
   }
 }
 
-export default Homepage;
+export { Homepage };
