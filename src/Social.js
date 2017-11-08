@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
+import { Grid, Row, Col, Image} from 'react-bootstrap';
 
 class Social extends Component {
 
@@ -14,7 +14,7 @@ class Social extends Component {
             <Col xs={8} md={10}>
               <br />
               <h3> Welcome To Yunyun's World </h3>
-              <Navigation />
+              
             </Col>
           </Row>
         </Grid>
