@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import { Navigation } from './Navigation'
-import { Social } from './Social'
-import { Nav, NavItem, Grid, Row, Col, Image} from 'react-bootstrap';
+import ReactDOM from 'react-dom';
 
 
-class Homepage extends Component {
+class Social extends Component {
 
   render() {
     return (
-        <Grid>
+      <Grid>
           <Row>
             <Col xs={4} md={2}>
               <Image src='./yunyun_icon.png' responsive />
@@ -20,9 +18,8 @@ class Homepage extends Component {
             </Col>
           </Row>
         </Grid>
-       
     );
   }
 }
 
-export { Homepage };
+export { Social };
