@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { Nav, NavItem, Grid, Row, Col, Image} from 'react-bootstrap';
+
 import { Navigation } from './Navigation'
 import { Social } from './Social'
-import { Nav, NavItem, Grid, Row, Col, Image} from 'react-bootstrap';
+import { Clock } from './Clock'
 
 
 class Homepage extends Component {
@@ -24,6 +26,7 @@ class Homepage extends Component {
             </Col>
           </Row>
           <Social />
+          <Clock />
         </Grid>
        
     );
