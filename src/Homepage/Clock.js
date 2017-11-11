@@ -30,13 +30,11 @@ class Clock extends Component {
 			<div>
 				<h4>Local Time:</h4>
 				<h4 className = 'dateString'> {dayArray[this.state.time.getDay()]}, {monthArray[this.state.time.getMonth()]} {this.state.time.getDate()}, {this.state.time.getFullYear()}</h4>
-				<h4> 
-					<div>{hourArray[this.state.time.getHours()]}</div>
-					 :  
-					<div>{minuteArray[this.state.time.getMinutes()]} </div>
-					 : 
-					<div>{minuteArray[this.state.time.getSeconds()]} </div>
-				</h4>
+				<div className = 'hourString'>{hourArray[this.state.time.getHours()]}</div>
+				<div className = 'dotString'>:</div>  
+				<div className = 'hourString'>{minuteArray[this.state.time.getMinutes()]} </div>
+				<div className = 'dotString'>:</div>  
+				<div className = 'secondString'>{minuteArray[this.state.time.getSeconds()]} </div>
 			</div>
 		)
 	}
