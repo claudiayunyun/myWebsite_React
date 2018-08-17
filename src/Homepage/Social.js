@@ -6,6 +6,7 @@ class Social extends Component {
 
   render() {
     return (
+      <div>
       <Row>
         <Col xs={12} md={6}></Col>
         <Col xs={12} md={6}>
@@ -32,6 +33,7 @@ class Social extends Component {
           <a href = ''><Image src='./images/douban.png' responsive /></a>
         </Col>
       </Row>
+      </div>
     );
   }
 }

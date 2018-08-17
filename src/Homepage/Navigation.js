@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import { Nav, NavItem, NavDropdown, MenuItem, Navbar} from 'react-bootstrap';
 
-class Navigation extends Component {
+export default class Navigation extends React.Component {
 
   render() {
     return (
@@ -23,4 +22,3 @@ class Navigation extends Component {
   }
 }
 
-export { Navigation };

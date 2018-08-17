@@ -1,23 +1,19 @@
 import React, { Component } from 'react';
-import { Nav, NavItem, Grid, Row, Col, Image} from 'react-bootstrap';
+import { Grid, Row, Col, Image} from 'react-bootstrap';
 
-import { Navigation } from './Navigation'
+import Navigation from './Navigation'
 import { Social } from './Social'
 import { Clock } from './Clock'
 
 
 class Homepage extends Component {
-  // const divStyle = {
-  //   textAlign: 'center',
-  //   padding:'1em'
-  // }
-
   render() {
     return (
+      <div>
         <Grid>
           <Row>
             <Col xs={4} md={2}>
-              
+              <Image src='./images/yunyun_icon.png' responsive />
             </Col>
             <Col xs={8} md={10}>
               <br />
@@ -28,6 +24,7 @@ class Homepage extends Component {
           <Social />
           <Clock />
         </Grid>
+      </div>
        
     );
   }
