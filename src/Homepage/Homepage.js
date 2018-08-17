@@ -17,7 +17,7 @@ class Homepage extends Component {
         <Grid>
           <Row>
             <Col xs={4} md={2}>
-              <Image src='./images/yunyun_icon.png' responsive />
+              
             </Col>
             <Col xs={8} md={10}>
               <br />
