@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image} from 'react-bootstrap';
 
-
 import Navigation from '../Components/Navigation.js'
 import { Clock } from '../Components/Clock.js'
-
 import { Social } from '../Components/Home/Social.js'
-import { Routes } from '../Components/Routes.js'
 
 class Home extends Component {
   render() {
