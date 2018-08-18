@@ -15,7 +15,7 @@ export default class Navigation extends React.Component {
             <LinkContainer to="/introduction">
               <MenuItem >Introduction</MenuItem>
             </LinkContainer>
-            <LinkContainer to='/colorfullift'>
+            <LinkContainer to='/colorfullife'>
               <MenuItem>Colorful Life</MenuItem>
             </LinkContainer>
             <LinkContainer to='/favourites'>

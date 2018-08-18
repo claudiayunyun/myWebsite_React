@@ -12,7 +12,7 @@ export const Routes = () => {
         <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path='/' component={Home}/>
-                <Route exact path='/colorfullift' component={ColorfulLife}/>
+                <Route exact path='/colorfullife' component={ColorfulLife}/>
                 <Route exact path='/favourites' component={Favourites}/>
                 <Route exact path='/introduction' component={Introduction}/>
             </Switch>
