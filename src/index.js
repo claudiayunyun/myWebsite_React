@@ -1,7 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './CSS/index.css';
-import { Homepage } from './Homepage/Homepage';
+import { Home } from './Containers/Home';
+import { Routes } from './Components/Routes'
 
 
-ReactDOM.render(<Homepage />,document.getElementById('root'));
+import './styles/index.css';
+
+ReactDOM.render(
+    
+        <Routes />
+    ,
+    document.getElementById('root')
+);

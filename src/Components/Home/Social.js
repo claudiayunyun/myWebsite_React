@@ -1,10 +1,7 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { Grid, Row, Col, Image} from 'react-bootstrap';
+import React from 'react';
+import { Row, Col, Image} from 'react-bootstrap';
 
-class Social extends Component {
-
-  render() {
+export const Social = () => {
     return (
       <div>
       <Row>
@@ -35,7 +32,4 @@ class Social extends Component {
       </Row>
       </div>
     );
-  }
 }
-
-export { Social };

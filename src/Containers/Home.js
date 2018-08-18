@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image} from 'react-bootstrap';
 
-import Navigation from './Navigation'
-import { Social } from './Social'
-import { Clock } from './Clock'
 
+import Navigation from '../Components/Navigation.js'
+import { Clock } from '../Components/Clock.js'
 
-class Homepage extends Component {
+import { Social } from '../Components/Home/Social.js'
+import { Routes } from '../Components/Routes.js'
+
+class Home extends Component {
   render() {
-    return (
-      <div>
+    return ( 
         <Grid>
           <Row>
             <Col xs={4} md={2}>
@@ -17,17 +18,15 @@ class Homepage extends Component {
             </Col>
             <Col xs={8} md={10}>
               <br />
-              <h3> Welcome To Yunyun's World </h3>
+              <h3> Welcome To Yunyun's World </h3>           
               <Navigation />
             </Col>
           </Row>
           <Social />
           <Clock />
-        </Grid>
-      </div>
-       
+        </Grid> 
     );
   }
 }
 
-export { Homepage };
+export { Home };
