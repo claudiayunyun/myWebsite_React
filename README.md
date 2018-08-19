@@ -53,3 +53,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
     </Switch>  
 </Router>  
 ~~~~
+
+__Step3__  
+hanlding hard refresh -- need to fix

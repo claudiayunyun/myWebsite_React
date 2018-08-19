@@ -22,7 +22,9 @@ export default class Navigation extends React.Component {
               <MenuItem>Favourites</MenuItem>
             </LinkContainer>
             <MenuItem divider />
-            <MenuItem href='./pdf/YH_resume.pdf'>Resume</MenuItem>
+            <LinkContainer to='/resume'>
+              <MenuItem>Resume</MenuItem>
+            </LinkContainer>
           </NavDropdown>
           <LinkContainer to='/others'>
             <NavItem title="Item">Others</NavItem>

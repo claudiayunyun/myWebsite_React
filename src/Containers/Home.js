@@ -19,8 +19,8 @@ class Home extends Component {
               <Navigation />
             </Col>
           </Row>
-          <Social />
           <Clock />
+          <Social />
         </Grid> 
     );
   }
