@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Grid, Row, Col, Button, Glyphicon, PanelGroup, Panel, Media } from 'react-bootstrap'
+import {Grid, Row, Col, Button, Glyphicon, PanelGroup, Panel, Media, Label } from 'react-bootstrap'
 
 import '../styles/resume.css'
 
@@ -25,28 +25,54 @@ export default class Resume extends React.Component {
                 <Row>
                     <Col md={6}>
                         <h3>Education</h3>
-                        <div style={{backgroundColor:'white',color:'black'}}>
-                        <Media>
-                            <Media.Left>
-                            <img width={64} height={64} src="./images/usc_logo.png" alt="thumbnail" />
-                            </Media.Left>
-                            <Media.Body>
-                            <Media.Heading>University of Southern California</Media.Heading>
-                            <p>
-                            </p>
-                            </Media.Body>
-                        </Media>
-                        <Media>
-                            <Media.Left>
-                            <img width={64} height={64} src="./images/usc_logo.png" alt="thumbnail" />
-                            </Media.Left>
-                            <Media.Body>
-                            <Media.Heading>University of Southern California</Media.Heading>
-                            <p>
-                            </p>
-                            </Media.Body>
-                        </Media>
-                        </div>
+                        <Panel>
+                            <Panel.Body>
+                                <Media>
+                                    <Media.Left>
+                                    <img width={64} height={64} src="./images/usc_logo.png" alt="thumbnail" />
+                                    </Media.Left>
+                                    <Media.Body>
+                                    <Media.Heading>University of Southern California</Media.Heading>
+                                    <p>
+                                    </p>
+                                    </Media.Body>
+                                </Media>
+                                <hr />
+                                <Media>
+                                    <Media.Left>
+                                    <img width={64} height={64} src="./images/usc_logo.png" alt="thumbnail" />
+                                    </Media.Left>
+                                    <Media.Body>
+                                    <Media.Heading>University of Southern California</Media.Heading>
+                                    <p>
+                                    </p>
+                                    </Media.Body>
+                                </Media>
+                            </Panel.Body>
+                        </Panel>
+                        <h3>Technical skills</h3>
+                        <Panel>
+                            <Panel.Body>
+                                <Label>Java</Label>{' '}
+                                <Label>Python</Label>{' '}
+                                <Label>C++</Label>{' '}
+                                <br />
+                                <Label bsStyle="primary">Matlab</Label>{' '}
+                                <Label bsStyle="primary">R</Label>{' '}
+                                <Label bsStyle="primary">SQL</Label>{' '}
+                                <br />
+                                <Label bsStyle="success">HTML</Label>{' '}
+                                <Label bsStyle="success">CSS</Label>{' '}
+                                <Label bsStyle="success">JavaScript</Label>{' '}
+                                <Label bsStyle="success">React</Label>{' '}
+                                <Label bsStyle="success">Angular</Label>{' '}
+                                <Label bsStyle="success">PHP</Label>{' '}
+                                <Label bsStyle="success">Swift</Label>
+                                <br />
+                                <Label bsStyle="warning">FRM LevelII</Label>{' '}
+                                <Label bsStyle="warning">CFA LevelI</Label>{' '}
+                            </Panel.Body>
+                        </Panel>
                     </Col>
                     <Col md={6}>
                         <h3>Professional experience</h3>   
