@@ -34,6 +34,7 @@ export default class Resume extends React.Component {
                                     <Media.Body>
                                     <Media.Heading>University of Southern California</Media.Heading>
                                     <p>
+                                    University of Southern California, Los Angeles, CA Master of Science, Computer Science, Dec 2018
                                     </p>
                                     </Media.Body>
                                 </Media>
@@ -45,6 +46,7 @@ export default class Resume extends React.Component {
                                     <Media.Body>
                                     <Media.Heading>University of Southern California</Media.Heading>
                                     <p>
+                                    University of Southern California, Los Angeles, CA Master of Science, Financial Engineering, Dec 2016
                                     </p>
                                     </Media.Body>
                                 </Media>
@@ -71,6 +73,12 @@ export default class Resume extends React.Component {
                                 <br />
                                 <Label bsStyle="warning">FRM LevelII</Label>{' '}
                                 <Label bsStyle="warning">CFA LevelI</Label>{' '}
+                            </Panel.Body>
+                        </Panel>
+                        <h3>Related Courses</h3>
+                        <Panel>
+                            <Panel.Body>
+                                Test
                             </Panel.Body>
                         </Panel>
                     </Col>

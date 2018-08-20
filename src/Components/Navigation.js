@@ -13,13 +13,13 @@ export default class Navigation extends React.Component {
           </LinkContainer>
           <NavDropdown title="About Me" id="nav-dropdown">
             <LinkContainer to="/introduction">
-              <MenuItem >Introduction</MenuItem>
+              <MenuItem disabled>Introduction</MenuItem>
             </LinkContainer>
             <LinkContainer to='/colorfullife'>
-              <MenuItem>Colorful Life</MenuItem>
+              <MenuItem disabled>Colorful Life</MenuItem>
             </LinkContainer>
             <LinkContainer to='/favourites'>
-              <MenuItem>Favourites</MenuItem>
+              <MenuItem disabled>Favourites</MenuItem>
             </LinkContainer>
             <MenuItem divider />
             <LinkContainer to='/resume'>
@@ -27,7 +27,7 @@ export default class Navigation extends React.Component {
             </LinkContainer>
           </NavDropdown>
           <LinkContainer to='/others'>
-            <NavItem title="Item">Others</NavItem>
+            <NavItem title="Others" disabled>Others</NavItem>
           </LinkContainer>
         </Nav>
       </div>

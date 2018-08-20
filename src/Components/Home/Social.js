@@ -14,17 +14,16 @@ export const Social = () => {
           <a href='https://github.com/claudiayunyun'><Image src='./images/github.png' responsive /></a>
         </Col>
         <Col xs={2} md={1}>
-          <a href=''><Image src='./images/weibo.png' responsive /></a>
+          <a href = 'https://www.linkedin.com/in/yunyun-huang-53aa9041/'><Image src='./images/linkedin.png' responsive /></a>
         </Col>
         <Col xs={2} md={1}>
           <a href = ''><Image src='./images/facebook.png' responsive /></a>
-        </Col>
-        <Col xs={2} md={1}>
-          <a href = ''><Image src='./images/linkedin.png' responsive /></a>
-        </Col>
-        
+        </Col> 
         <Col xs={2} md={1}>
           <a href=''><Image src='./images/twitter.png' responsive /></a>
+        </Col>
+        <Col xs={2} md={1}>
+          <a href=''><Image src='./images/weibo.png' responsive /></a>
         </Col>
         <Col xs={2} md={1}>
           <a href = ''><Image src='./images/douban.png' responsive /></a>
