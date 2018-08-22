@@ -7,6 +7,7 @@ import '../styles/resume.css'
 import { Education } from '../Components/About/Resume/Education'
 import { TechSkill } from '../Components/About/Resume/TechSkill';
 import ProfessionEx from '../Components/About/Resume/ProfessionEx';
+import { NavBar } from '../Components/NavBar'
 
 export default class Resume extends React.Component {
     
@@ -14,6 +15,9 @@ export default class Resume extends React.Component {
     render() {
         return (
             <Grid container-fluid>
+                <Row>
+                    <NavBar />
+                </Row>
                 <Row>
                     <Col md={6}>
                         <h3>Education</h3>

@@ -37,7 +37,7 @@ class Clock extends Component {
 		return (
 			<div>
 				<div>
-					<h4>Local Time:</h4>
+					<h4>Where You Are Currently :</h4>
 					<h4 className = 'dateString'> {dayArray[this.state.time.getDay()]}, {monthArray[this.state.time.getMonth()]} {this.state.time.getDate()}, {this.state.time.getFullYear()}</h4>
 					<div className = 'hourString'>{hourArray[this.state.time.getHours()]}</div>
 					<div className = 'dotString'>:</div>  
@@ -46,7 +46,7 @@ class Clock extends Component {
 					<div className = 'secondString'>{minuteArray[this.state.time.getSeconds()]} </div>
 				</div>
 				<div>
-					<h4>City I am living Time: </h4>
+					<h4>Where I am living : </h4>
 					<h4 className = 'dateString'> {dayArray[timeLA.getDay()]}, {monthArray[timeLA.getMonth()]} {timeLA.getDate()}, {timeLA.getFullYear()}</h4>
 					<div className = 'hourString'>{hourArray[timeLA.getHours()]}</div>
 					<div className = 'dotString'>:</div>  
@@ -55,7 +55,7 @@ class Clock extends Component {
 					<div className = 'secondString'>{minuteArray[timeLA.getSeconds()]} </div>
 				</div>
 				<div>
-					<h4>Hometown Time: China, Nanjing</h4>
+					<h4>Hometown : China, Nanjing</h4>
 					<h4 className = 'dateString'> {dayArray[timeNJ.getDay()]}, {monthArray[timeNJ.getMonth()]} {timeNJ.getDate()}, {timeNJ.getFullYear()}</h4>
 					<div className = 'hourString'>{hourArray[timeNJ.getHours()]}</div>
 					<div className = 'dotString'>:</div>  

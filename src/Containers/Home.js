@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image, Carousel} from 'react-bootstrap';
 
-import Navigation from '../Components/Navigation.js'
+import Navigation from '../Components/Home/Navigation.js'
 import { Clock } from '../Components/Clock.js'
 import { Social } from '../Components/Home/Social.js'
 
@@ -15,7 +15,7 @@ class Home extends Component {
             </Col>
             <Col xs={8} md={10}>
               <br />
-              <h3> Welcome To Yunyun's World </h3>           
+                <h3> Welcome To Yunyun's World </h3>                      
               <Navigation />
             </Col>
           </Row>
