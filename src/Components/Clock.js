@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import '../styles/clock.css';
+import React, { Component } from 'react'
+import {Label} from 'react-bootstrap'
+import '../styles/clock.css'
 
 class Clock extends Component {
 	constructor() {
@@ -63,6 +64,7 @@ class Clock extends Component {
 					<div className = 'dotString'>:</div>  
 					<div className = 'secondString'>{minuteArray[timeNJ.getSeconds()]} </div>
 				</div>
+				<h1><a href='#home'><Label>New</Label></a></h1>
 			</div>
 		)
 	}
