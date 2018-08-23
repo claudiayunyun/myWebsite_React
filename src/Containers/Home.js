@@ -4,6 +4,8 @@ import { Grid, Row, Col, Image, Carousel} from 'react-bootstrap';
 import Navigation from '../Components/Home/Navigation.js'
 import { Clock } from '../Components/Clock.js'
 import { Social } from '../Components/Home/Social.js'
+import { Languages } from '../Components/Home/Languages.js';
+import { HomeCarousel } from '../Components/Home/HomeCarousel.js';
 
 class Home extends Component {
   render() {
@@ -22,34 +24,12 @@ class Home extends Component {
           <Row>
             <Col md={3}>
               <Clock />
+              <Languages />
             </Col>
             <Col md={9}>
-            <Carousel>
-  <Carousel.Item>
-    <img width={900} height={500} alt="900x500" src="./images/github_page.png" />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img width={900} height={500} alt="900x500" src="./images/github_page.png" />
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img width={900} height={500} alt="900x500" src="./images/github_page.png" />
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+              <HomeCarousel />
             </Col>
-          </Row>
-          
+          </Row>  
           <Social />
         </Grid> 
     );
