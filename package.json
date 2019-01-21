@@ -11,7 +11,7 @@
     "react-ga": "^2.3.5",
     "react-router-bootstrap": "^0.24.4",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.0.14"
+    "react-scripts": "^2.1.3"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -35,5 +35,11 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/claudiayunyun/myWebsite_React/issues"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
