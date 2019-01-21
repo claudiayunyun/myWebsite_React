@@ -5,7 +5,21 @@ export default class ColorfulLife extends React.Component {
   render() {
     return (
       <div>
-        test
+       <div>
+         News
+       </div>
+       <div>
+         Finance
+       </div>
+       <div>
+         Technology
+       </div>
+       <div>
+         Useful Skills
+       </div>
+       <div>
+         USC Libraries
+       </div>
       </div>
     );
   }

@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { Home } from '../Containers/Home'
-import { HomeCH } from '../Containers/HomeCH'
+import HomeCH from '../Containers/HomeCH'
 import ColorfulLife from '../Containers/ColorfulLife'
-import { Favourites } from '../Containers/Favourites'
+import Favourites from '../Containers/Favourites'
 import { Introduction } from '../Containers/Introduction'
 import  Resume  from '../Containers/Resume'
 import { Others } from '../Containers/Others'
